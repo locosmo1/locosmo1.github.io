@@ -1,0 +1,89 @@
+<html>
+
+<head>
+
+    <LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
+
+    <script>
+        function redireccionar() {
+            window.location = "file:///C:/Users/pc/Desktop/paginas%20web/Paginas/OVA%201%20SECTION/ARTICLE.html";
+        }
+
+        function mostrarSeleccionado() {
+            if (document.getElementById('1').checked) {
+                alert('Correcto');
+                redireccionar()
+            }
+            if (document.getElementById('2').checked) {
+                alert('Incorrecto vuelve a intentarlo');
+            }
+            if (document.getElementById('3').checked) {
+                alert('Incorrecto vuelve a intentarlo');
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <section>
+
+        <h1 align="center">OVA FOOTER</h1>
+
+        <div style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LPUROrvX_Nc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+
+
+    <section style="display: block;" class="body current" id="wizard-p-4" role="tabpanel" aria-labelledby="wizard-h-4" aria-hidden="false">
+        <div class="wrapper_row" style="">
+            <div class="row js_error_placement_parent step_5">
+                <div class="m_header_step" data-step="5">
+                    <h1 class="js_error_placement quizz_question required_field">Un footer no es:</h1>
+                </div>
+
+                <div class="m_options js_quizz_question">
+                    <ul>
+                        <li>
+                            <div class="m_option js_ok_ko_class_placement">
+                                <input class="m_option_input js_quizz_radio" data-msg-required="Choose one of the options" required="required" type="radio" value="36428" name="participation[promo_response_attributes][response_11732]" id="1" aria-required="true">
+                                <label class="m_option_label" for="1">Un enlace</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="m_option js_ok_ko_class_placement">
+                                <input class="m_option_input js_quizz_radio" data-msg-required="Choose one of the options" required="required" type="radio" value="36429" name="participation[promo_response_attributes][response_11732]" id="2" aria-required="true">
+                                <label class="m_option_label" for="2">Informacion de autoria</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="m_option js_ok_ko_class_placement">
+                                <input class="m_option_input js_quizz_radio" data-msg-required="Choose one of the options" required="required" type="radio" value="36430" name="participation[promo_response_attributes][response_11732]" id="3" aria-required="true">
+                                <label class="m_option_label" for="3">Informacion de contacto</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- - class=row -->
+        </div>
+        <!-- - class=wrapper_row -->
+    </section>
+
+
+    <input type="button" value="Verificar" onclick="mostrarSeleccionado()" </body>
+
+
+    <section>
+        <form>
+        </form>
+    </section>
+
+
+</body>
+
+</html>

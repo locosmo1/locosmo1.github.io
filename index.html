@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+    <LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
+
+    <script>
+        function ver_planing() {
+            window.location = "file:///C:/Users/pc/Desktop/paginas%20web/Paginas/OVA%201%20SECTION/planning.html";
+        }
+
+        function ovas() {
+            window.location = "file:///C:/Users/pc/Desktop/paginas%20web/Paginas/OVA%201%20SECTION/section1.html";
+        }
+
+        function mostrarSeleccionado() {
+            if (document.getElementById('1').checked) {
+                alert('Incorrecto vuelve a intentarlo');
+            }
+            if (document.getElementById('2').checked) {
+                alert('Correcto');
+                redireccionar()
+            }
+            if (document.getElementById('3').checked) {
+                alert('Incorrecto');
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <center>
+        <h1>
+            Ovas objetos virtuales de aprendizaje
+        </h1>
+        <h2 color="white">
+            Aqui empieza tu camino
+        </h2>
+
+        <br><input type="button" value="Entrar a aprender con Ovas" onclick="ovas()"> </br>
+
+        <br> <input type="button" value="Ver planning" onclick="ver_planing()"> </br>
+    </center>
+
+
+
+</body>
+
+</html>

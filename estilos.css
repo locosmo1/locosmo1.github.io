@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+button {
+    color: blanchedalmond;
+    margin: 5px;
+    border-color: blue;
+    padding: 5px;
+    border: 5px- solid;
+}
